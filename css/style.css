@@ -1,0 +1,309 @@
+body{
+	background-color: #f5f6f7;
+}
+
+
+/*Nav bar*/
+.navbar{
+	padding: 2rem;
+	background-color: #f5f6f7;
+}
+.navbar-collapse{
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+/*General Style*/
+section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+h1{
+	font-size: 2.5rem;
+	font-family: 'Rubik Dirt', cursive;
+}
+body hr{
+	background-color: white;
+	color: blue;
+	padding: 0;
+}
+.dark-section{
+	color: white;
+	background-color: #1b1b32;
+}
+.light-section{
+	color: black;
+	background-color: white;
+}
+.title-section{
+	font-size: 2rem;
+	padding: 15px 0;
+	font-family: 'Rubik Dirt', cursive;
+}
+.description-section{
+	font-size: 1.2rem;
+	color: #584e4e;
+}
+.text-section{
+	font-size: 1.2rem;
+}
+
+.black-text{
+	color: black;
+}
+
+
+
+/*Hero section*/
+.hero{
+	background-color: #f5f6f7;
+	min-height: 450px;
+	text-align: center;
+}
+
+
+
+/*About Dhosting*/
+.about-dhosting{
+	height: 500px;
+	padding: 10px;
+}
+.about-dhosting .container-AD{
+	max-width: 600px;
+	text-align: center;
+}
+
+
+
+/*Services section*/
+.services{
+	padding: 40px 40px 60px 40px;
+}
+.services-title{
+	font-size: 25px;
+	font-weight: bold;
+	margin: 10px 0;
+}
+.badges-container{
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px 0;
+}
+.badge{
+	margin: 5px;
+}
+.services img{
+	font-size: 2.5rem;
+	padding: 8px 19px;
+	width: 100px;
+}
+
+
+
+/*Memberships Section*/
+.our-services{
+	padding: 40px;
+	margin-bottom: 20px;
+}
+.our-services img{
+	height: 100%;
+	width: 100%;
+	padding: 10px;
+	border-radius: 30px;
+	display: block;
+	transition: all 0.2s ease;
+}
+
+
+
+/*Button buy*/
+.button-buy{
+	width: 200px;
+	padding: 15px 0;
+	text-align: center;
+	margin: 20px 10px;
+	border-radius: 10px;
+	font-weight: bold;
+	border: 1px solid rgb(13, 110, 253);
+	background: transparent;
+	color: #787878;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+.button-buy:hover{
+	color: #fff;
+	background-color: rgb(13, 110, 253);
+}
+.button-buy span{
+	background: #35BE2D;
+	height: 100%;
+	width: 0;
+	border-radius: 25px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	transition: 0.5s;
+}
+.class-card-pro .op-1{
+	color: #0BB1FF;
+}
+.class-card-basic .op-1{
+	color: #0BB1FF;
+}
+.class-card-free .op-1{
+	color: #0BB1FF;
+}
+
+
+
+/*Contact section*/
+.contact .container{
+	max-width: 1100px;
+	min-height: 200px;
+	padding: 20px;
+}
+.contact .rectangle{
+	margin-top: -5rem;
+	background-color: rgb(13, 110, 253);
+	border-radius: 10px;
+	box-shadow: 0px 1px 4px 1px white;
+}
+.contact .row{
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.contact .description{
+	color: white;
+	font-size: 1.2rem;
+}
+.contact button{
+	color: white;
+	font-weight: bold;
+	background-color: transparent;
+	border: 2px solid white;
+	padding: 1.25em 2em;
+	margin: 10px;
+	border-radius: 100px;
+	transition: all 0.2s ease-in-out;
+}
+.contact button:hover{
+	background-color: white;
+	color: black;
+}
+.contact button i{
+	color: white;
+	font-size: 1.3rem;
+	transition: all 0.2s ease-in-out;
+}
+.contact button:hover i{
+	color: black;
+}
+
+
+
+/*Footer*/
+footer{
+	min-height: 500px;
+}
+.footer-logo{
+	height: 80px;
+	width: 80px;
+	margin: 10px;
+}
+.text-footer{
+	font-size: 1.5rem;
+	padding: 20px;
+	margin-bottom: 30px;
+	font-family: 'Quicksand', sans-serif;
+}
+.social-media-icons a{
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 2px;
+	margin: 10px;
+	border: 2px solid white;
+	border-radius: 50%;
+	transition: all 0.2s ease-in;
+}
+.social-media-icons i{
+	color: white;
+	font-size: 1.5rem;
+	transition: all 0.2s ease-in;
+}
+.social-media-icons a:hover{
+	background-color: white;/*El fondo sera blanco*/
+	border: 2px solid rgb(13, 110, 253);/*Border azul*/
+}
+.social-media-icons a:hover i{
+	color: black;/*Mientras que el icono sera negro*/
+}
+.copyright{
+	font-size: 15px;
+	color: #aeaeae;
+	padding: 20xp;
+	margin-top: 20px;
+}
+
+
+
+/*(Responsive)*/
+@media screen and (max-width: 767px){
+	.navbar-brand{
+		display: none;
+	}
+}
+.main-hero{
+	padding: 3rem;
+}
+.main-hero h2{
+	font-size: 1.5rem;
+	color: #615151;
+
+}
+.hero-img-bot{
+	width: 200px;
+	background-color: #0BB1FF;
+	border-radius: 100%;
+	margin: 20px;
+}
+
+@media screen and (min-width: 700px){
+	.hero-lower-image{
+		max-width: 600px;
+	}
+}
+
+
+
+/*Bottom lines of the navbar*/
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 7px;
+	position: relative;
+}
+.navbar li a{
+	text-decoration: none;
+}
+.navbar ul li::after{
+	content: '';
+	height: 3px;
+	width: 0;
+	background: #A9DE21;
+	position: absolute;
+	left: 5;
+	bottom: 3px;
+	transition: 0.4s;
+}
+.navbar ul li:hover:after{
+	width: 97%;
+}
